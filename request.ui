@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="runstart">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>211</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>50</y>
+      <width>641</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>881</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sent Headers:
+accept: */*
+accept-language: tr,en-US;q=0.9,en;q=0.8,de;q=0.7,tk;q=0.6
+cache-control: no-cache
+cookie: lila2=6ac33e54c54225ad91bcb417dc7fe8a4be27e032-sid=40o9FxB0fe8n1ZxEaWsl2d
+origin: https://lichess.org
+pragma: no-cache
+referer: https://lichess.org/login?referrer=/
+sec-ch-ua: &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;102&quot;, &quot;Google Chrome&quot;;v=&quot;102&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+x-requested-with: XMLHttpRequest
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBMovXiezblupFuKZ
+Sent Cookies:
+
+Address: https://lichess.org/login
+Response code: 401 (Unauthorized)
+Received headers:
+Server: nginx
+Date: Tue, 02 Aug 2022 17:14:30 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 8713
+Connection: keep-alive
+Vary: Accept
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Expect-CT: max-age=31536000, enforce
+X-Frame-Options: DENY
+Permissions-Policy: interest-cohort=()
+Received cookies:
+Response Source:
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;tr-TR&quot;&gt;&lt;!-- Lichess is open source! See https://lichess.org/source --&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1,viewport-fit=cover&quot;&gt;&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src 'self' lichess1.org; connect-src 'self' lichess1.org wss://socket0.lichess.org wss://socket1.lichess.org wss://socket2.lichess.org wss://socket3.lichess.org wss://socket4.lichess.org wss://socket5.lichess.org https://explorer.lichess.ovh https://tablebase.lichess.ovh; style-src 'self' 'unsafe-inline' lichess1.org; frame-src 'self' lichess1.org www.youtube.com player.twitch.tv; worker-src 'self' lichess1.org; img-src data: *; script-src 'self' lichess1.org; font-src 'self' lichess1.org; base-uri 'none';&quot;&gt;&lt;meta name=&quot;theme-color&quot; content=&quot;#2e2a24&quot;&gt;&lt;title&gt;Giriş • lichess.org&lt;/title&gt;&lt;link href=&quot;https://lichess1.org/assets/_ki7VLG/css/site.ltr.dark.min.css&quot; rel=&quot;stylesheet&quot; /&gt;&lt;link href=&quot;https://lichess1.org/assets/_ki7VLG/css/auth.ltr.dark.min.css&quot; rel=&quot;stylesheet&quot; /&gt;&lt;link id=&quot;piece-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_7">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>50</y>
+      <width>281</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BOT STATUS: SUCCESS
+VARIABLES:
+username (Single) = yigit_34
+Wins (Single) = 156
+Loss (Single) = 236
+Bullet (Single) = ?
+Blitz (Single) = 1058?
+Rapid (Single) = 1196?
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Block</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_8">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>20</y>
+      <width>611</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REQUEST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_9">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>10</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BOT STATUS: SUCCESS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_10">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>370</y>
+      <width>611</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Request Logs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_11">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>60</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>URL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_12">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>60</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>https://lichess.org/login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_13">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GET</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_14">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>POST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_15">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_16">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HEAD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_17">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DELETE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_18">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OPTİONS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_19">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PATCH</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_20">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>100</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TRACE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_21">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>POST DATA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_22">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>140</y>
+      <width>491</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>------WebKitFormBoundaryBMovXiezblupFuKZ
+Content-Disposition: form-data; name=&quot;username&quot;
+
+&lt;USER&gt;
+------WebKitFormBoundaryBMovXiezblupFuKZ
+Content-Disposition: form-data; name=&quot;password&quot;
+
+&lt;PASS&gt;
+------WebKitFormBoundaryBMovXiezblupFuKZ
+Content-Disposition: form-data; name=&quot;token&quot;
+
+
+------WebKitFormBoundaryBMovXiezblupFuKZ--</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_23">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>240</y>
+      <width>561</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: tr,en-US;q=0.9,en;q=0.8,de;q=0.7,tk;q=0.6
+cache-control: no-cache
+content-length: 349
+content-type: multipart/form-data; boundary=----WebKitFormBoundaryg7eIofPTt92r0Ywq
+cookie: lila2=6ac33e54c54225ad91bcb417dc7fe8a4be27e032-sid=40o9FxB0fe8n1ZxEaWsl2d
+origin: https://lichess.org
+pragma: no-cache
+referer: https://lichess.org/login?referrer=/
+sec-ch-ua: &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;102&quot;, &quot;Google Chrome&quot;;v=&quot;102&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+x-requested-with: XMLHttpRequest
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_24">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HEADERS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runstart_25">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REQUEST</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
